@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Databricks temporary files
+*.dbc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
