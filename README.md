@@ -27,6 +27,9 @@ The project follows modern Data Engineering best practices including:
 ---
 
 # 🏗 Architecture
+<p align="center">
+  <img src="architecture/architecture.png" alt="Architecture Diagram" width="1000">
+</p>
 
 ```
                  GitHub REST API
@@ -53,9 +56,7 @@ The project follows modern Data Engineering best practices including:
           Databricks Dashboard
 ```
 
-<p align="center">
-  <img src="architecture/architecture.png" alt="Architecture Diagram" width="1000">
-</p>
+
 ---
 
 # 🏛 Medallion Architecture
