@@ -1,4 +1,4 @@
-```yaml
+```yml
 name: Validate Repository
 
 on:
