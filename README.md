@@ -31,32 +31,6 @@ The project follows modern Data Engineering best practices including:
   <img src="architecture/architecture.png" alt="Architecture Diagram" width="1000">
 </p>
 
-```
-                 GitHub REST API
-                        │
-                        ▼
-              Ingestion Notebook
-                        │
-                        ▼
-          Databricks Volume (Raw JSON)
-                        │
-                        ▼
-                 Auto Loader
-                        │
-                        ▼
-              Bronze Delta Table
-                        │
-                        ▼
-             Silver Delta Table
-                        │
-                        ▼
-              Gold KPI Tables
-                        │
-                        ▼
-          Databricks Dashboard
-```
-
-
 ---
 
 # 🏛 Medallion Architecture
