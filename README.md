@@ -52,7 +52,11 @@ The project follows modern Data Engineering best practices including:
                         ▼
           Databricks Dashboard
 ```
+<h2 align="center">🏗 Architecture</h2>
 
+<p align="center">
+  <img src="architecture/architecture.png" alt="Architecture Diagram" width="1000">
+</p>
 ---
 
 # 🏛 Medallion Architecture
