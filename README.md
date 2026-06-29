@@ -145,53 +145,9 @@ databricks-streaming-project/
 
 # 🔄 Data Pipeline Flow
 
-```
-GitHub API
-
-      │
-
-      ▼
-
-JSON Files
-
-      │
-
-      ▼
-
-Databricks Volume
-
-      │
-
-      ▼
-
-Auto Loader
-
-      │
-
-      ▼
-
-Bronze
-
-      │
-
-      ▼
-
-Silver
-
-      │
-
-      ▼
-
-Gold
-
-      │
-
-      ▼
-
-Dashboard
-```
-
----
+<p align="center">
+  <img src="screenshots/data_pipeline_flow.png" alt="Architecture Diagram" width="1000">
+</p>
 
 # 🚀 Pipeline Workflow
 
