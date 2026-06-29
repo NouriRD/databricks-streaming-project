@@ -273,16 +273,41 @@ The dashboard displays:
 
 ---
 
-# 📸 Screenshots
+## 📸 Project Screenshots
 
-Repository includes screenshots of:
+### Architecture
 
-- Unity Catalog
-- Databricks Workflow
-- Bronze Table
-- Silver Table
-- Gold Tables
-- Dashboard
+![Architecture](screenshots/architecture.png)
+
+### Databricks Workspace
+
+![Workspace](screenshots/workspace.png)
+
+### Job Workflow
+
+![Jobs](screenshots/job_pipeline.png)
+
+### Unity Catalog
+
+![Catalog](screenshots/catalog.png)
+
+### Volume
+
+![Volume](screenshots/Volume.png)
+
+### Gold Table
+
+![Gold](screenshots/gold1.png)
+
+![Gold](screenshots/gold2.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard1.png)
+
+![Dashboard](screenshots/dashboard2.png)
+
+![Dashboard](screenshots/dashboard3.png)
 
 ---
 
