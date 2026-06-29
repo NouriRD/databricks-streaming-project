@@ -263,7 +263,7 @@ GitHub:
 https://github.com/NouriRD
 
 LinkedIn:
-*(Add your LinkedIn profile here)*
+https://www.linkedin.com/in/noureddine-rida-6b482195/
 
 ---
 
