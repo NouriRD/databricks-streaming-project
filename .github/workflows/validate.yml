@@ -1,4 +1,3 @@
-```yml
 name: Validate Repository
 
 on:
@@ -35,5 +34,3 @@ jobs:
 
       - name: Success
         run: echo "Repository validation completed successfully."
-```
-
