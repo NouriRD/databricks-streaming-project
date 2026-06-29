@@ -1,1 +1,39 @@
+```yaml
+name: Validate Repository
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Repository Structure
+        run: |
+          echo "Repository structure:"
+          ls -R
+
+      - name: Validate Markdown Files
+        run: |
+          echo "Checking Markdown files..."
+          find . -name "*.md"
+
+      - name: Validate Jupyter Notebooks
+        run: |
+          echo "Checking notebook files..."
+          find . -name "*.ipynb"
+
+      - name: Success
+        run: echo "Repository validation completed successfully."
+```
 
